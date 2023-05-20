@@ -107,6 +107,11 @@ function Home() {
           </p>
         </div>
         {isMobile? <NavbarSM />: <Navbar/>}
+
+        <div className='relative bottom-20 text-2xl text-white text-center' >
+            Challenge by <span className="text-yellow-800"><a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></span>. 
+    Coded by <span className=' text-green-800'><a href="https://www.frontendmentor.io/profile/MNSM92" target="_blank">Nazmus Sakib</a></span>.
+  </div>
         
       </div>
     </>

@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react' ;
 import './App.css';
 import Navbar from './Navbar';
-import NavbarSM from './NavbarSM';
-import Example from './Menu';
+import NavbarSM from './NavbarSM'; 
 
 import destinationD from "./assets/destination/background-destination-desktop.jpg";
 import destinationT from "./assets/destination/background-destination-tablet.jpg";
